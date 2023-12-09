@@ -37,7 +37,7 @@ class BungeeBridgeProcessor(GenericProcessorSnapshot):
             raise Exception('Currently only supports single block height')
 
         
-        snapshots = [('0xc3761EB917CD790B30dAD99f6Cc5b4Ff93C4F9eA', BungeeBridgeSnapshot(receiver='sdfsdfs', amount=1242, srcChainTxHash='sdjvskdfksdhf')]
+        snapshots = [('0xc3761EB917CD790B30dAD99f6Cc5b4Ff93C4F9eA', BungeeBridgeSnapshot(receiver='sdfsdfs', amount=1242, srcChainTxHash='sdjvskdfksdhf'))]
         # min amount in wei
         # min_amount = 2000000000000000
         
